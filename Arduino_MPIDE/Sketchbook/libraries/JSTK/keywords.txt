@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map For CAN
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+JSTK	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+end	KEYWORD2
+setLeds	KEYWORD2
+getX	KEYWORD2
+getY	KEYWORD2
+getBtn	KEYWORD2
+getAll	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+JSTK_LED1	LITERAL1
+JSTK_LED2	LITERAL1
+JSTK_BTN1	LITERAL1
+JSTK_BTN2	LITERAL1

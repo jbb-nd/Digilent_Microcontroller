@@ -1,0 +1,4 @@
+TCPEchoServerPmodNIC
+
+This example is almost exactly the ...\Arduino\libraries\DNETcK\examples\TCPEchoServer example except that this uses the PmodNIC network hardware.
+Please refer to the ...\libraries\DNETcK\examples\TCPEchoServer\documentation\TCPEchoServer.txt example documentation.

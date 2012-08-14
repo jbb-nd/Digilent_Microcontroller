@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map LCDP
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+LCDP	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+WriteStringAtPos	KEYWORD2
+DisplaySet			KEYWORD2
+CursorModeSet		KEYWORD2
+begin				KEYWORD2
+DisplayClear		KEYWORD2
+SetBackLight		KEYWORD2
+SetCursor			KEYWORD2
+SetBlink			KEYWORD2
+ReturnHome			KEYWORD2
+WriteStringAtPos	KEYWORD2
+DisplayShift		KEYWORD2
+CursorShift			KEYWORD2
+DefineUserChar		KEYWORD2
+WriteUserCharsAtPos	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+LCDP_PMOD_JA_ARGS	LITERAL1
+LCDP_PMOD_JJ_ARGS	LITERAL1

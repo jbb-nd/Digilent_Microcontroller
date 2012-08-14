@@ -1,0 +1,4 @@
+UDPEchoServerPmodNIC100
+
+This example is almost exactly the ...\Arduino\libraries\DNETcK\examples\UDPEchoServer example except that this uses the PmodNIC100 network hardware.
+Please refer to the ...\libraries\DNETcK\examples\UDPEchoServer\documentation\UDPEchoServer.txt example documentation.

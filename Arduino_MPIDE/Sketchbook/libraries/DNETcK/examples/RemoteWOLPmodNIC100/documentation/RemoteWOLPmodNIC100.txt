@@ -1,0 +1,4 @@
+RemoteWOLPmodNIC100
+
+This example is almost exactly the ...\libraries\DNETcK\examples\RemoteWOL example except that this uses the PmodNIC100 network hardware.
+Please refer to the ...\libraries\DNETcK\examples\RemoteWOL\documentation\RemoteWOL.txt example documentation.

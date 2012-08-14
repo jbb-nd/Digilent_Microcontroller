@@ -1,0 +1,4 @@
+UDPEchoClientNetworkShield
+
+This example is almost exactly the ...\Arduino\libraries\DNETcK\examples\UDPEchoClient example except that this uses the NetworkShield network hardware.
+Please refer to the ...\libraries\DNETcK\examples\UDPEchoClient\documentation\UDPEchoClient.txt example documentation.

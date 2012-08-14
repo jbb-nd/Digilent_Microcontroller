@@ -1,0 +1,69 @@
+UDPEchoClient 1.0
+
+1.  In the ...\libraries\DNETcK\examples\UDPEchoClient\PCCode directory, start UDPEchoServer; once started the command window 
+    should look something like:
+
+            UDPEchoServer Version 1.0.4414.23751
+            Digilent, Copyright 2011
+
+            Listening on port: 44400.
+
+2.  Edit the UDPEchoClient.pde sketch to have the correct IP address of your PC UDPEchoServer. You probably only need to 
+    change szIPServer as the port number is preset to the default port.
+
+            /***********************************************************/
+            /***********************************************************/
+            /***********************************************************/
+            //
+            //          CHANGE THIS TO YOUR SERVER IP ADDRESS
+            //
+            char * szIPServer = "192.168.1.180";
+            unsigned short portServer = 44400;    
+            //
+            //
+            /***********************************************************/
+            /***********************************************************/
+            /***********************************************************/
+
+3.  Build and upload UDPEchoClient.pde. Once uploaded UDPEchoClient automatically starts and after a good 10 seconds you should see
+    something like the following in our UDPEchoServer command window:
+
+            UDPEchoServer Version 1.0.4505.28267
+            Digilent, Copyright 2011
+
+            Listening on port: 44400.
+            Datagram detected:
+            *Wrote from udpClient.writeDatagram*
+            Listening on port: 44400.
+
+4.  Open the serial monitor button in MPIDE at 9600 baud to restart the sketch, after about 10 seconds your serial monitor 
+    should display something like:
+
+            UDPEchoClient 1.0
+            Digilent, Copyright 2011
+
+            Writing out Datagram
+            Waiting to see if a datagram comes back:
+            *Wrote from udpClient.writeDatagram*
+            Done waiting, assuming nothing more is coming
+
+            Closing udpClient, Done with sketch.
+ 
+5.  Your command window should look something like:
+
+            UDPEchoServer Version 1.0.4505.28267
+            Digilent, Copyright 2011
+
+            Listening on port: 44400.
+            Datagram detected:
+            *Wrote from udpClient.writeDatagram*
+            Listening on port: 44400.
+            Datagram detected:
+            *Wrote from udpClient.writeDatagram*
+            Listening on port: 44400.
+
+6.  Shutdown your sketch.
+
+7.  Shutdown the TCPEchoServer by typing ^C in the command window.
+
+
