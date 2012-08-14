@@ -1,3 +1,5 @@
+// Finite State Machine example
+
 #include <Bounce.h>
 
 #define START  0
@@ -5,11 +7,11 @@
 #define TWO    2
 #define THREE  3
 
-#define BTN    PIN_BTN1
-#define BIT0   PIN_LED1
-#define BIT1   PIN_LED2
-#define BIT2   PIN_LED3
-#define BIT3   PIN_LED4
+#define BTN    42 //PIN_BTN1
+#define BIT0   64 //PIN_LED1
+#define BIT1   65 //PIN_LED2
+#define BIT2   66 //PIN_LED3
+#define BIT3   67 //PIN_LED4
 
 Bounce debounced_btn = Bounce(BTN, 5);
 int state = 0;
