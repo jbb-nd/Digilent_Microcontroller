@@ -19,6 +19,9 @@
  modified 28 Oct 2010
  by Tom Igoe
  
+ modified 29 Aug 2012 
+ by Jay Brockman for Digilent Cerebot MX4cK pinout
+ 
  This example code is in the public domain.
  
  http://www.arduino.cc/en/Tutorial/Button
