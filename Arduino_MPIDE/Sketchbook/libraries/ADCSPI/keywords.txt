@@ -1,0 +1,22 @@
+#######################################
+# Syntax Coloring Map DSPI
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ADCSPI	Keyword1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+GetIntegerValue		KEYWORD2
+GetPhysicalValue	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+PAR_ACCESS_SPI0	LITERAL1
+PAR_ACCESS_SPI1	LITERAL1

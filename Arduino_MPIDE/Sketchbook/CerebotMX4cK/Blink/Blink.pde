@@ -5,7 +5,7 @@
   This example code is in the public domain.
  */
 
-#define LED_PIN 66          // LD3 on the board
+#define LED_PIN 0          // LD3 on the board
 // int led_pin = PIN_LED2;  // LD2 on the board, pin 65
 
 void setup() {                
